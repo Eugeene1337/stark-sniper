@@ -1,0 +1,9 @@
+{
+  "starknet": {
+    "rpc": [
+      "https://starknet-mainnet.public.blastapi.io"
+    ],
+    "explorer": "https://starkscan.co/tx/",
+    "token": "ETH"
+  }
+}

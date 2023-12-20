@@ -1,0 +1,12 @@
+TYPE_WALLET = "argent"  # argent/braavos
+CAIRO_VERSION = 0
+
+
+QUANTITY_THREADS = 2
+
+SLEEP = 0.4
+
+RETRY_COUNT = 3
+
+
+FEE_MULTIPLIER = 1.5
