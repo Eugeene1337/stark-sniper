@@ -13,7 +13,7 @@ def retry(func):
                 result = await func(*args, **kwargs)
                 return result
             except Exception as e:
-                logger.error(f"Error | {e} {traceback.format_exc()}")
+                logger.error(f"Error | {e}") #{traceback.format_exc()}
                 await asyncio.sleep(SLEEP)
                 retries += 1
 
